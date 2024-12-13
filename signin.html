@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+<body>
+    <section class="w-100 vh-100 d-flex justify-content-center  " >
+        <div class="box mt-5  text-center">
+              <h1 class="mt-5 mb-2">Smart Login System</h1>
+              <input id="signupName" class="form-control my-3 bg-transparent text-white placeholder-wave mx-auto" placeholder="Enter your name" type="text">
+              <input id="signupemail" class="form-control my-3 bg-transparent text-white placeholder-wave mx-auto" placeholder="Enter your email" type="email">
+              <input id="signuPass" class="form-control my-3 bg-transparent text-white placeholder-wave mx-auto" placeholder="Enter your password" type="password">
+              <p id="error" class="py-3 text-danger d-none">All inputs is required</p>
+
+              <p id="success" class="text-danger d-none ">email already exists</p>
+
+              <p id="repeat" class="text-success d-none">Success</p>
+              <button class="btn btn-outline-info text-capitalize mt-3" >sign up</button>
+              <p class="pt-3">Don’t have an account? <a href="index.html" class=" btnsignup">Sign up</a></p>
+        </div>
+    </section>
+    <!-- href="./index.html -->
+    <script src="js/signin.js"></script>
+</body>
+</html>

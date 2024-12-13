@@ -1,0 +1,42 @@
+ body{
+ background-color: #24353f;   
+ }
+ .box{
+width: 55%;
+height: 60%;
+background: #24353f;
+color: #fff;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.471), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+ .box h1{
+    color: #1da0b5 ;
+ }
+ input{
+    width: 90% !important;
+ }
+ ::placeholder {
+    color: #fff !important;
+    opacity: .5 !important; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #fff;
+  }
+  button{
+color:  #1da0b5 !important;
+border: #1da0b5 1px solid;
+width: 90% !important;
+transition: all .5 ease-in-out;
+  }
+  button:hover{
+    color: #fff !important;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover{
+    text-decoration: underline;
+  }

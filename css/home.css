@@ -1,0 +1,27 @@
+body{
+    background-color: #24353f;   
+    }
+
+    nav{
+        background-color: #24353f;   
+        color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.471), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    .nav-link{
+        border: 1px #a88a04 solid !important;
+        color: #828c92 !important;
+    }
+    .nav-link:hover{
+        background-color: #eac210;
+        color: #fff !important;
+    }
+    .box{
+   width: 60%;
+   height: 25%;
+   margin-bottom: 35px;
+   background: #24353f;
+   color: #269cae;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.471), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    }
